@@ -218,6 +218,8 @@ body {
 .hero {
     padding-top: 200px;
     padding-bottom: 200px;
+    max-width: 1600px;
+    margin: 0 auto;
     text-align: center;
     background-color: #2F303A;
     background-image: linear-gradient(to right,
@@ -336,6 +338,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 10px;
+    margin-top: 10px;
 }
 
 .social {
@@ -360,9 +364,6 @@ body {
     fill: currentColor;
 }
 
-.socials .socials-item:not(:last-child) {
-    margin-right: 10px;
-}
 
 .team-list .item {
     margin-right: 30px;
